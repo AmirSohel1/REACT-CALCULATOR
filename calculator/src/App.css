@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 400px;
+  border: 1px solid red;
+  z-index: 5px;
+  border-radius: 11px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0.1, 0.1, 0.5);
+  gap: 10px;
+  /* background-color: rgb(54, 20, 20); */
+}
